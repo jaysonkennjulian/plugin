@@ -1,0 +1,31 @@
+<?php
+
+return [
+	/*
+    |--------------------------------------------------------------------------
+    | Vendor and Package Name
+    |--------------------------------------------------------------------------
+    | This is the Vendor and Package Name of The Bizzle Plugin
+    |
+    */
+    'vendor' => ':vendor',
+    'package_name' => ':package_name',
+	/*
+    |--------------------------------------------------------------------------
+    | Layout Extend Settings
+    |--------------------------------------------------------------------------
+    | This is the configuration for exntending the application towards Bizzle Mainframe
+    |
+    */
+	'master_file_extend' => 'layouts.app',
+	/*
+    |--------------------------------------------------------------------------
+    | Pagination Settings
+    |--------------------------------------------------------------------------
+    | This is the Default Value for Pagination
+    |
+    */
+	'paginate' => [
+        'num_of_results' => 12,
+    ],
+];
