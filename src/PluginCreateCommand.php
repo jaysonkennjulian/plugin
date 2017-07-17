@@ -126,10 +126,7 @@ class PluginCreateCommand extends Command
         $this->makeDir($fullpath.'/database/migrations');
         $this->makeDir($fullpath.'/database/seeds');
         $this->makeDir($fullpath.'/config');
-        $this->makeDir($sourcepath.'Routes');
-        $this->makeDir($sourcepath.'Models');
-        $this->makeDir($sourcepath.'Views');
-        $this->makeDir($sourcepath.'Controllers');
+        $this->makeDir($sourcepath.'views');
     }
 
     public function replacer($oldFile, $search, $replace, $newFile = null)
